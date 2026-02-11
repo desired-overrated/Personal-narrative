@@ -20,7 +20,7 @@ Implement algorithms – Implement one or more algorithms that use loops and log
 
 ## Video
 
-[![Thumbnail for my projet](tumbnail.png)](<video controls src="Screen recording 2026-02-10 5.50.42 PM.webm" title="Title"></video>)
+[![Thumbnail for my projet](tumbnail.png)](<video controls><source src="Screen recording 2026-02-10 5.50.42 PM.webm"></source></video>)
 
 ## Story Description
 
