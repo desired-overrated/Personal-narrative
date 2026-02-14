@@ -20,7 +20,7 @@ Implement algorithms – Implement one or more algorithms that use loops and log
 
 ## Video
 
-[![Thumbnail for my projet](tumbnail.png)](https://youtube.com/shorts/S0oZyBQtQWw)
+[![Thumbnail for my projet](tumbnail.png)](https://youtu.be/zMwV5QEvHQc)
 
 
 

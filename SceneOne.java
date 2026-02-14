@@ -10,16 +10,18 @@ public class SceneOne extends Scene {
   private ImageFilter hanbok;
   private ImageFilter fam2;
   private ImageFilter fam3;
+  private String soundFile;
 
   
   /**
   Constructor 
   */
-  public SceneOne(ImageFilter hanbok, ImageFilter fam2, ImageFilter fam3, String koreanImage) {
+  public SceneOne(ImageFilter hanbok, ImageFilter fam2, ImageFilter fam3, String koreanImage, String soundFile) {
     this.hanbok = hanbok;
     this.fam2 = fam2;
     this.fam3 = fam3;
     this.koreanImage = koreanImage;
+    this.soundFile = soundFile;
   }
 
   
@@ -45,6 +47,7 @@ public String[][] setUpData(){
     pause(1);
     drawImage(koreanImage, 65, 60, 270, 0);
     pause(1);
+    playSound(soundFile);
     //sets the 2D array into one used to draw the text
     String[][] info = setUpData();
     drawText(introText(info), 15, 270);
@@ -114,6 +117,8 @@ String text = "";
       drawImage(fam3, 60, 10, 300, 0);
       pause(1);
     }
+
+
   
   
 }
